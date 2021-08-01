@@ -29,10 +29,10 @@ app.post("/", function (req, res) {
             }
         }]
     }
-    const url = "https://us6.api.mailchimp.com/3.0/lists/84b6cXXXXX";
+    const url = "MailChip API URL";
     const options = {
         method: "POST",
-        auth: "Deepak:d3a0d5c006805caca22c89b2cc6XXXXX-us6"
+        auth: "Deepak:API Key"
     }
 
     var jsondata = JSON.stringify(data);
