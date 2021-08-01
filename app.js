@@ -29,7 +29,7 @@ app.post("/", function (req, res) {
             }
         }]
     }
-    const url = "MailChip API URL";
+    const url = "MailChimp API URL";
     const options = {
         method: "POST",
         auth: "Deepak:API Key"
