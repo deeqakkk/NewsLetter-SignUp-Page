@@ -29,10 +29,10 @@ app.post("/", function (req, res) {
             }
         }]
     }
-    const url = "https://us6.api.mailchimp.com/3.0/lists/84b6c0648c";
+    const url = "https://us6.api.mailchimp.com/3.0/lists/84b6cXXXXX";
     const options = {
         method: "POST",
-        auth: "Deepak:d3a0d5c006805caca22c89b2cc68219d-us6"
+        auth: "Deepak:d3a0d5c006805caca22c89b2cc6XXXXX-us6"
     }
 
     var jsondata = JSON.stringify(data);
